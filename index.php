@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,64 +11,71 @@
 
 <body>
 
-<div class="contenedor">
-    
+    <div class="contenedor">
 
-    <h1>Sistema Académico</h1>
+        <h1>Sistema Académico</h1>
 
-    <form action="guardar_estudiantes.php" method="post">
-        <h2>Estudiantes</h2>
+        <form action="guardar_estudiantes.php" method="post">
 
-        <input type="text" name="nombre" placeholder="Nombre" required>
-        <input type="text" name="apellido" placeholder="Apellido" required>
-        <input type="text" name="tipo_id" placeholder="Tipo de ID" required>
-        <input type="text" name="programa" placeholder="Programa Académico" required>
-        <input type="text" name="semestre" placeholder="Semestre" required>
-        <input type="number" name="edad" placeholder="Edad" required>
-        <input type="date" name="fecha_nacimiento" placeholder="Fecha de Nacimiento" required>
-        
-        <button type="submit">Guardar</button>
+            <h2>Estudiantes</h2>
 
-    </form>
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="text" name="apellido" placeholder="Apellido" required>
+            <input type="text" name="tipo_id" placeholder="Tipo de ID" required>
+            <input type="text" name="programa" placeholder="Programa Académico" required>
+            <input type="text" name="semestre" placeholder="Semestre" required>
+            <input type="number" name="edad" placeholder="Edad" required>
+            <input type="date" name="fecha_nacimiento" placeholder="Fecha de Nacimiento" required>
 
-    <form action="guardar_profesor.php" method="post">
-        <h2>Profesores</h2>
+            <button type="submit">Guardar</button>
 
-        <input type="text" name="nombre" placeholder="Nombre" required>
-        <input type="text" name="apellido" placeholder="Apellido" required>
-        <input type="text" name="tipo_id" placeholder="Tipo de ID" required>
-        <input type="text" name="programa" placeholder="Programa Académico" required>
-        <input type="text" name="semestre" placeholder="Semestre" required>
-        <input type="number" name="edad" placeholder="Edad" required>
-        <input type="date" name="fecha_nacimiento" placeholder="Fecha de Nacimiento" required>
-        
-        <button type="submit">Guardar</button>
+        </form>
 
-    </form>
+        <form action="guardar_profesor.php" method="post">
 
-    <form action="guardar_nomina.php" method="post">
-        <h2>NOMINA</h2>
+            <h2>Profesores</h2>
 
-        <input type="number" name="salario" placeholder="Salario" required>
-        <input type="text" name="tipo_vinculacion" placeholder="Tipo de Vinculación" required>
-        
-        <button type="submit">Guardar</button>
-    </form>
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="text" name="apellido" placeholder="Apellido" required>
+            <input type="text" name="tipo_id" placeholder="Tipo de ID" required>
+            <input type="text" name="programa" placeholder="Programa Académico" required>
+            <input type="text" name="semestre" placeholder="Semestre" required>
+            <input type="number" name="edad" placeholder="Edad" required>
+            <input type="date" name="fecha_nacimiento" placeholder="Fecha de Nacimiento" required>
 
-<section>
-    <a href="consultar_estudiantes.php">
-        <button>Consultar Estudiantes</button>
-    </a>
+            <button type="submit">Guardar</button>
 
-    <a href="consultar_profesores.php">
-        <button>Consultar Profesores</button>
-    </a>
+        </form>
 
-    <a href="consultar_nomina.php">
-        <button>Consultar NOMINA</button>
-    </a>
-</section>
+        <form action="guardar_nomina.php" method="post">
 
-</div>
+            <h2>Nómina</h2>
+
+            <input type="number" name="salario" placeholder="Salario" required>
+            <input type="text" name="tipo_vinculacion" placeholder="Tipo de Vinculación" required>
+
+            <button type="submit">Guardar</button>
+
+        </form>
+
+        <section>
+
+            <a href="consultar_estudiantes.php">
+                <button type="button">Consultar Estudiantes</button>
+            </a>
+
+            <a href="consultar_profesores.php">
+                <button type="button">Consultar Profesores</button>
+            </a>
+
+            <a href="consultar_nomina.php">
+                <button type="button">Consultar Nómina</button>
+            </a>
+
+        </section>
+
+    </div>
+
 </body>
+
 </html>
