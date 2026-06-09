@@ -11,7 +11,7 @@
 
 <body>
 
-    <div class="contenedor">
+<div class="contenedor">
     
 
     <h1>Sistema Académico</h1>
@@ -55,7 +55,7 @@
         <button type="submit">Guardar</button>
     </form>
 
-    <section>
+<section>
     <a href="consultar_estudiantes.php">
         <button>Consultar Estudiantes</button>
     </a>
@@ -67,9 +67,11 @@
     <a href="consultar_nomina.php">
         <button>Consultar NOMINA</button>
     </a>
-    </section>
+</section>
 
-    </div>
+</div>
+
 </body>
+
 
 </html>
