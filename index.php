@@ -70,8 +70,6 @@
 </section>
 
 </div>
-
 </body>
-
 
 </html>
